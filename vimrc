@@ -16,7 +16,7 @@ set ignorecase
 
 set lz
 
-set listchars=tab:··
+set listchars=tab:Â·Â·
 set list
 
 set ffs=unix,dos,mac
@@ -57,3 +57,11 @@ set preserveindent
 
 
 filetype plugin indent on
+
+function Maximize()
+    winpos 0 31
+    set lines=56
+    set columns=237
+endfunction
+
+autocmd GUIEnter * call Maximize()
