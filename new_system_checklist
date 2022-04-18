@@ -1,0 +1,27 @@
+X
+Xfce
+git
+vim, gvim, vimrc
+app-shells/bash-completion (or bashcomp) (git completion, etc)
+thunderbird (or some other mail client)
+sound (add pulseaudio use flag)
+google-chrome
+xfce4-terminal, disable scrolling, set scrolling to unlimited
+libreoffice !
+vlc
+disable beeper !?
+update all packages
+ncurses with tinfo (add tinfo use flag)
+ntp
+ccache
+p7zip
+Rebind new tab from ctrl+shift+t to ctrl+t
+(
+        edit the file ~/.config/xfce4/terminal/accels.scm, find the action/shortcut you want to change, remove the leading ";" (semicolon) from the line and change the shortcut at the end of line.
+        Save the file and quit all instances of and restart xfce4-terminal.
+)
+per-window keyboard layout (xfce4-xkb-plugin) !
+skype
+telegramm
+meld
+kdiff3
